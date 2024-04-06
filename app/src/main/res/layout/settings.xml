@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:id="@+id/card"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="16dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/our_programs"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    app:layout_constraintBottom_toTopOf="@+id/contacts"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintTop_toBottomOf="@+id/card_view_theme"
+                    android:layout_marginTop="8dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    <TextView
+                            android:text="@string/our_programs"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/our_programs_txt"
+                            android:textSize="20sp"
+                            android:autoSizeTextType="none"
+                            android:inputType="textMultiLine"
+                            android:minHeight="48dp"
+                            tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck,TextViewEdits,UnusedAttribute"
+                            android:longClickable="false"
+                            app:autoSizeTextType="none"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            android:gravity="center"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            android:layout_marginTop="8dp" />
+
+                    <ScrollView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            app:layout_constraintTop_toBottomOf="@id/our_programs_txt"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:scrollbarSize="0dp"
+                            android:layout_marginTop="8dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                            <com.google.android.material.card.MaterialCardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="53dp"
+                                    app:layout_constraintTop_toBottomOf="@+id/our_programs_txt"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    android:layout_marginStart="16dp"
+                                    android:layout_marginEnd="16dp"
+                                    android:id="@+id/ac_cv"
+                                    android:layout_marginTop="8dp"
+                                    tools:ignore="NotSibling">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                    <androidx.cardview.widget.CardView
+                                            android:layout_width="35dp"
+                                            android:layout_height="35dp"
+                                            android:id="@+id/ac"
+                                            android:foreground="@drawable/logo_ac"
+                                            app:cardCornerRadius="30dp"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            android:layout_marginStart="16dp"
+                                            app:cardElevation="0dp"
+                                            tools:ignore="TooDeepLayout">
+
+                                    </androidx.cardview.widget.CardView>
+
+                                    <TextView
+                                            android:text="@string/ac"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:id="@+id/textView_ac"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            android:textSize="12sp"
+                                            app:layout_constraintStart_toEndOf="@+id/ac"
+                                            android:layout_marginStart="16dp"
+                                            tools:ignore="SmallSp" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+                            </com.google.android.material.card.MaterialCardView>
+
+                            <com.google.android.material.card.MaterialCardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="53dp"
+                                    app:layout_constraintTop_toBottomOf="@+id/ac_cv"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    android:layout_marginStart="16dp"
+                                    android:layout_marginEnd="16dp"
+                                    android:id="@+id/w_cv"
+                                    android:layout_marginTop="8dp">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                    <androidx.cardview.widget.CardView
+                                            android:layout_width="35dp"
+                                            android:layout_height="35dp"
+                                            android:id="@+id/w"
+                                            android:foreground="@drawable/logo_w"
+                                            app:cardCornerRadius="30dp"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            android:layout_marginStart="16dp"
+                                            app:cardElevation="0dp">
+
+                                    </androidx.cardview.widget.CardView>
+
+                                    <TextView
+                                            android:text="@string/w"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:id="@+id/textView_w"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            android:textSize="12sp"
+                                            app:layout_constraintStart_toEndOf="@+id/w"
+                                            android:layout_marginStart="16dp"
+                                            tools:ignore="SmallSp" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+                            </com.google.android.material.card.MaterialCardView>
+
+                            <com.google.android.material.card.MaterialCardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="53dp"
+                                    app:layout_constraintTop_toBottomOf="@id/w_cv"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    android:layout_marginStart="16dp"
+                                    android:layout_marginEnd="16dp"
+                                    android:id="@+id/cc_cv"
+                                    android:layout_marginTop="8dp">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                    <androidx.cardview.widget.CardView
+                                            android:layout_width="35dp"
+                                            android:layout_height="35dp"
+                                            android:id="@+id/cc"
+                                            android:foreground="@drawable/logo_cc"
+                                            app:cardCornerRadius="30dp"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            android:layout_marginStart="16dp"
+                                            app:cardElevation="0dp">
+
+                                    </androidx.cardview.widget.CardView>
+
+                                    <TextView
+                                            android:text="@string/cc"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:id="@+id/textView_cc"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            android:textSize="12sp"
+                                            app:layout_constraintStart_toEndOf="@+id/cc"
+                                            android:layout_marginStart="16dp"
+                                            tools:ignore="SmallSp" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+                            </com.google.android.material.card.MaterialCardView>
+
+                            <com.google.android.material.card.MaterialCardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="53dp"
+                                    app:layout_constraintTop_toBottomOf="@id/cc_cv"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    android:layout_marginStart="16dp"
+                                    android:layout_marginEnd="16dp"
+                                    android:id="@+id/aw_cv"
+                                    android:layout_marginTop="8dp"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    android:layout_marginBottom="24dp">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                    <androidx.cardview.widget.CardView
+                                            android:layout_width="35dp"
+                                            android:layout_height="35dp"
+                                            android:id="@+id/aw"
+                                            android:foreground="@drawable/loco_wc"
+                                            app:cardCornerRadius="30dp"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            android:layout_marginStart="16dp"
+                                            app:cardElevation="0dp">
+
+                                    </androidx.cardview.widget.CardView>
+
+                                    <TextView
+                                            android:text="@string/aw"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:id="@+id/textView_aw"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            android:textSize="12sp"
+                                            app:layout_constraintStart_toEndOf="@+id/aw"
+                                            android:layout_marginStart="16dp"
+                                            tools:ignore="SmallSp" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+                            </com.google.android.material.card.MaterialCardView>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </ScrollView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <ScrollView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintTop_toBottomOf="@+id/close_settings_button"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:id="@+id/rules_scroll"
+                    android:scrollbarSize="0dp"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="@+id/our_programs">
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/info"
+                        android:gravity="start"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:textSize="24sp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp" />
+            </ScrollView>
+
+            <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/close_settings_button"
+                    android:scaleType="centerInside"
+                    android:contentDescription="@string/dare"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="16dp"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="16dp"
+                    tools:ignore="DuplicateSpeakableTextCheck,TouchTargetSizeCheck"
+                    android:foreground="@drawable/exit" />
+
+            <Button
+                    android:text="@string/return_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/return_back_button"
+                    android:backgroundTint="@color/green"
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:cornerRadius="30dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="TextContrastCheck"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="100dp" />
+
+            <Button
+                    android:text="@string/rules"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rules_button"
+                    android:backgroundTint="@color/main"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:cornerRadius="30dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/return_back_button"
+                    android:layout_marginTop="8dp"
+                    tools:ignore="TextContrastCheck,VisualLintOverlap"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            <Button
+                    android:text="@string/exit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/exit_button"
+                    android:backgroundTint="@color/red"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:cornerRadius="30dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="TextContrastCheck,VisualLintOverlap"
+                    android:textSize="20sp"
+                    app:layout_constraintTop_toBottomOf="@+id/rules_button"
+                    android:layout_marginTop="8dp"
+                    android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="32dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/exit_button"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginTop="16dp"
+                    app:cardBackgroundColor="@color/main"
+                    android:id="@+id/card_view_theme">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    <androidx.appcompat.widget.SwitchCompat
+                            android:text="@string/change_theme"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/change_theme"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:checked="false"
+                            android:gravity="center"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/contacts"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginBottom="24dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    <TextView
+                            android:text="@string/contacts_txt"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/contacts_txt"
+                            android:textSize="16sp"
+                            android:typeface="normal"
+                            android:textStyle="bold"
+                            android:autoSizeTextType="none"
+                            android:inputType="textMultiLine"
+                            android:minHeight="48dp"
+                            tools:ignore="TextContrastCheck,TextViewEdits,UnusedAttribute"
+                            android:longClickable="false"
+                            app:autoSizeTextType="none"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:gravity="center"
+                            android:layout_marginStart="24dp" />
+
+                    <androidx.cardview.widget.CardView
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:id="@+id/vk"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/tg"
+                            android:layout_marginEnd="16dp"
+                            tools:ignore="DuplicateSpeakableTextCheck"
+                            android:foreground="@drawable/vk" />
+
+                    <androidx.cardview.widget.CardView
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:id="@+id/tg"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            android:layout_marginEnd="16dp"
+                            tools:ignore="ImageContrastCheck"
+                            android:foreground="@drawable/tg" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

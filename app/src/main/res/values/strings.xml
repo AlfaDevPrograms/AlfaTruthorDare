@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Alfa Truth or Dare</string>
+    <string name="start_game">Создать игроков</string>
+    <string name="truth_or_dare">Правда\nИЛИ\nДействие?</string>
+    <string name="name_player">Введите имя</string>
+    <string name="bg">Фоновое изображение</string>
+    <string name="button">Кнопка</string>
+    <string name="add_player">Добавить игрока</string>
+    <string name="players_list">Создание игроков</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="players_added">Начать игру</string>
+    <string name="choice">Выбирает\nАльфред</string>
+    <string name="truth">Правда</string>
+    <string name="dare">Действие</string>
+    <string name="yes">Выполнено</string>
+    <string name="no">Не выполнено</string>
+    <string name="rules">Правила игры</string>
+    <string name="score">Итоги игры</string>
+    <string name="return_back">Вернуться играть</string>
+    <string name="exit">Выйти из игры</string>
+    <string name="shared_preferences"></string>
+    <string name="change_theme">Сменить тему\t\t\t</string>
+    <string name="our_programs">Наши приложения</string>
+    <string name="contacts_txt">Связаться с нами</string>
+    <string name="rules_info">В Правда или действие можно играть с друзьями, парами или семьей\n\nВам решать, играть в большой компании или в узком кругу друзей\n\nСамо собой, чем больше людей, тем веселее игра\n\nНо чем меньше игроков, тем интимнее игра, и тем интереснее ответы на каверзные личные вопросы\n\nЧто бы вы не выбрали, правила игры просты\n\nСначала вы определяетесь с тем, кто начнет игру (первый игрок при создании игры)\n\nИгрок, который начнет, должен выбрать между полным ответом на вопрос, или выполнением действия\n\nЭтот игрок получает вопрос или задание от приложения\n\nПосле того, как задание было выполнено, приложение спрашивает следующего: «Правда или действие?», и так далее\n\n</string>
+    <string name="ac">Женский календарь</string>
+    <string name="cc">Программа похудения</string>
+    <string name="aw">График рабочих смен</string>
+    <string name="w">Прогноз погоды</string>
+</resources>

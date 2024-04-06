@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TruthorDare.Dark" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">
+            @color/gray
+        </item>
+        <item name="colorPrimaryVariant">
+            @color/gray
+        </item>
+        <item name="colorOnPrimary">
+            @color/gray
+        </item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">
+            @color/gray
+        </item>
+        <item name="colorSecondaryVariant">
+            @color/gray
+        </item>
+        <item name="colorOnSecondary">
+            @color/gray
+        </item>
+        <item name="android:statusBarColor">
+            @color/gray
+        </item>
+        <item name="android:windowBackground">
+            @color/gray
+        </item>
+        <item name="android:forceDarkAllowed" tools:ignore="NewApi">false</item>
+    </style>
+    <style name="Theme.TruthorDare.Dark" parent="Base.Theme.TruthorDare.Dark">
+        <item name="cardViewStyle">
+            @style/CardViewStyleDark
+        </item>
+        <item name="android:textViewStyle">
+            @style/TextViewStyleDark
+        </item>
+        <item name="editTextStyle">
+            @style/EditTextStyleDark
+        </item>
+        <item name="imageButtonStyle">
+            @style/ImageButtonDark
+        </item>
+        <item name="materialCardViewStyle">
+            @style/CardViewStyleMaterialDark
+        </item>
+    </style>
+</resources>

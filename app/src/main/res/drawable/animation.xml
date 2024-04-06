@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/animation_000" android:duration="80"/>
+    <item android:drawable="@drawable/animation_001" android:duration="80"/>
+    <item android:drawable="@drawable/animation_002" android:duration="80"/>
+    <item android:drawable="@drawable/animation_003" android:duration="80"/>
+    <item android:drawable="@drawable/animation_004" android:duration="80"/>
+    <item android:drawable="@drawable/animation_005" android:duration="80"/>
+    <item android:drawable="@drawable/animation_006" android:duration="80"/>
+    <item android:drawable="@drawable/animation_007" android:duration="80"/>
+    <item android:drawable="@drawable/animation_008" android:duration="80"/>
+    <item android:drawable="@drawable/animation_009" android:duration="80"/>
+    <item android:drawable="@drawable/animation_010" android:duration="80"/>
+    <item android:drawable="@drawable/animation_011" android:duration="80"/>
+    <item android:drawable="@drawable/animation_012" android:duration="80"/>
+    <item android:drawable="@drawable/animation_013" android:duration="80"/>
+    <item android:drawable="@drawable/animation_014" android:duration="80"/>
+    <item android:drawable="@drawable/animation_015" android:duration="80"/>
+    <item android:drawable="@drawable/animation_016" android:duration="80"/>
+    <item android:drawable="@drawable/animation_017" android:duration="80"/>
+    <item android:drawable="@drawable/animation_018" android:duration="80"/>
+    <item android:drawable="@drawable/animation_019" android:duration="80"/>
+    <item android:drawable="@drawable/animation_020" android:duration="80"/>
+    <item android:drawable="@drawable/animation_021" android:duration="80"/>
+    <item android:drawable="@drawable/animation_022" android:duration="80"/>
+    <item android:drawable="@drawable/animation_023" android:duration="80"/>
+    <item android:drawable="@drawable/animation_024" android:duration="80"/>
+    <item android:drawable="@drawable/animation_025" android:duration="80"/>
+    <item android:drawable="@drawable/animation_026" android:duration="80"/>
+    <item android:drawable="@drawable/animation_027" android:duration="80"/>
+    <item android:drawable="@drawable/animation_028" android:duration="80"/>
+    <item android:drawable="@drawable/animation_029" android:duration="80"/>
+</animation-list>
